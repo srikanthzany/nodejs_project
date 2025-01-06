@@ -1,0 +1,13 @@
+1. Create a user model with following field.
+a. Id - Number, autoincrement
+b. Name - Varchar(256)
+c. Mobile number- number(unique)
+d. Address - Text
+e. Post count - number (Whenever user creates a new post the count increases by 1)
+
+2. Create Post Model with following details
+a. Id - Number, autoincrement
+b. Title - Text field
+c. Description - Text field
+d. User ID - Foreign key to user table in point
+e. Images - JSON Array of strings
